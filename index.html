@@ -6,19 +6,24 @@
 <title>Ahmed & Nada · Live Wishes &amp; RSVPs</title>
 <meta property="og:title" content="Ahmed & Nada · Live Wishes &amp; RSVPs"/>
 <meta property="og:description" content="Live guestbook and RSVP tracker for Ahmed & Nada's wedding, September 18, 2026."/>
-<meta property="og:image" content="https://faarrhaa.github.io/NadaAhmed-Wishes/preview.jpeg"/>
-<meta property="og:url" content="https://faarrhaa.github.io/NadaAhmed-Wishes/"/>
+<meta property="og:image" content="https://faarrhaa.github.io/AhmedNada-WeddWishes/preview.jpeg"/>
+<meta property="og:image:secure_url" content="https://faarrhaa.github.io/AhmedNada-WeddWishes/preview.jpeg"/>
+<meta property="og:image:type" content="image/jpeg"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:url" content="https://faarrhaa.github.io/AhmedNada-WeddWishes/"/>
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="Ahmed & Nada · Live Wishes &amp; RSVPs"/>
 <meta name="twitter:description" content="Live guestbook and RSVP tracker for Ahmed & Nada's wedding, September 18, 2026."/>
-<meta name="twitter:image" content="https://faarrhaa.github.io/NadaAhmed-Wishes/preview.jpeg"/>
+<meta name="twitter:image" content="https://faarrhaa.github.io/AhmedNada-WeddWishes/preview.jpeg"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Great+Vibes&display=swap" rel="stylesheet"/>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
 :root{
+  --bg-image:url('https://faarrhaa.github.io/Ahmed-Nada-Wedding-Invitation/bg.png');
   --gold:#7b5f35;--gold2:#e8c565;--gold3:#fff3d1;
   --cream:#fdf8ee;--cream2:#f5ead0;--ivory:#fffdf5;
   --dark:#2c1a00;--dark2:#3d2600;--brown:#5a3800;
@@ -31,7 +36,7 @@ body{
   font-weight:500;
   background:
     linear-gradient(180deg, rgba(253,248,238,.55), rgba(253,248,238,.55)),
-    url('https://faarrhaa.github.io/Ahmed-Nada-Wedding-Invitation/bg.png') center center / cover no-repeat fixed;
+    var(--bg-image) center center / cover no-repeat fixed;
   background-color:#2c1a00;
   color:var(--text);
   min-height:100vh;
@@ -166,6 +171,9 @@ footer{text-align:center;margin-top:60px;font-family:'Cinzel',serif;font-size:10
 </style>
 </head>
 <body>
+<script>
+document.documentElement.style.setProperty('--bg-image', "url('https://faarrhaa.github.io/Ahmed-Nada-Wedding-Invitation/bg.png?t=" + Date.now() + "')");
+</script>
 <div class="grain"></div>
 <div id="wrap">
 
